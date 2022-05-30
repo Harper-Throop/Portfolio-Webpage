@@ -1,0 +1,26 @@
+*{
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.smaller{
+    font-size: 80%;
+}
+
+.center{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.about-me{
+    width: 50%;
+    margin-left: 25%;
+    padding: auto;
+}
+
+#About-me{
+    margin-left: 0;
+    margin-right: 0;
+}
