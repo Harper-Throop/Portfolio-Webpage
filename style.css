@@ -32,7 +32,7 @@
 }
 
 a:link{
-    color: blue;
+    color: orange;
 } /* Turns any link text blue before the user visits the link */
 
 a:visited{
