@@ -1,17 +1,23 @@
-*{
+*{ /* General styles to apply to all elements on the page. */
     background: black;
     color: white;
     text-align: center;
     font-family: Verdana;
 }
 
-.smaller{
+.smaller{   /* This is to make the h3 heading in the header appear smaller than normal for styling reasons. */
     font-size: 80%;
+    height: auto;
 }
 
-.center{
-    margin-left: 20%;
-    margin-right: 20%;
+.centeredUL{
+    margin: auto;
+    width: 20%; /* Used to make the bullet points closer to the text while keeping the entire list centered on the screen. */
+}
+
+.centeredOL{
+    margin: auto;
+    width: 5%; /* Used to make the numbers closer to the text while keeping the entire list centered on the screen. */
 }
 
 .about-me{
@@ -24,3 +30,15 @@
     margin-left: 0;
     margin-right: 0;
 }
+
+a:link{
+    color: blue;
+} /* Turns any link text blue before the user visits the link */
+
+a:visited{
+    color: green;
+} /* Turns any link text green once the user visits the link */
+
+a:hover{
+    color: red;
+} /* Turns any link text red when the user hovers over it */
