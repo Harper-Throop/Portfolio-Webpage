@@ -33,7 +33,7 @@
 
 a:link{
     color: #A796FD;
-} /* Turns any link text blue before the user visits the link */
+} /* Turns any link text somewhat blue before the user visits the link */
 
 a:visited{
     color: #17BA22;
@@ -41,4 +41,4 @@ a:visited{
 
 a:hover{
     color: #F88282;
-} /* Turns any link text red when the user hovers over it */
+} /* Turns any link text somewhat red/orange when the user hovers over it */
